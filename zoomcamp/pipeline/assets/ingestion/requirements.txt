@@ -1,0 +1,10 @@
+# TODO: Add Python dependencies required by the python ingestion asset.
+# - Keep this intentionally minimal.
+# - Pin versions for reproducibility.
+# Docs: https://getbruin.com/docs/bruin/assets/python
+#
+# Minimum dependencies for the ingestion asset
+pandas==2.2.0
+pyarrow==12.0.1
+requests==2.31.0
+

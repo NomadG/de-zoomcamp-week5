@@ -1,0 +1,26 @@
+.bruin.yml
+
+# Bruin runtime artifacts
+logs/
+bruin.duckdb
+*.duckdb
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Local env/secrets
+.env
+.env.*
+
+# Editor/OS
+.vscode/
+.DS_Store
